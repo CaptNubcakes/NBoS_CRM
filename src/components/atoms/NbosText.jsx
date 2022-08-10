@@ -11,25 +11,9 @@ export const NbosText = ({ text, size, uppercase, bold, color }) => {
   textClass = uppercase ? `${textClass} tw-uppercase` : textClass
 
   return (
-    <>
-      <span className="tw-hidden tw-text-xs" />
-      <span className="tw-hidden tw-text-sm" />
-      <span className="tw-hidden tw-text-base" />
-      <span className="tw-hidden tw-text-lg" />
-      <span className="tw-hidden tw-text-xl" />
-      <span className="tw-hidden tw-text-2xl" />
-      <span className="tw-hidden tw-text-3xl" />
-      <span className="tw-hidden tw-text-4xl" />
-      <span className="tw-hidden tw-text-5xl" />
-      <span className="tw-hidden tw-text-5xl" />
-      <span className="tw-hidden tw-text-6xl" />
-      <span className="tw-hidden tw-text-7xl" />
-      <span className="tw-hidden tw-text-8xl" />
-      <span className="tw-hidden tw-text-9xl" />
-      <StyledText color={color} className={textClass}>
-        {text}
-      </StyledText>
-    </>
+    <StyledText color={color} className={textClass}>
+      {text}
+    </StyledText>
   )
 }
 

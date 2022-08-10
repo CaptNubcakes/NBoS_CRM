@@ -13,9 +13,21 @@ Xs.args = {
   text: 'Steve Pietrek',
 }
 
+export const Sm = Template.bind({})
+Sm.args = {
+  size: 'sm',
+  text: 'Josh Furr',
+}
+
 export const Base = Template.bind({})
 Base.args = {
   text: 'Steve Pietrek',
+}
+
+export const BoldBase = Template.bind({})
+BoldBase.args = {
+  text: 'Josh Furr',
+  bold: true,
 }
 
 export const Lg = Template.bind({})
@@ -41,6 +53,12 @@ export const Xl2 = Template.bind({})
 Xl2.args = {
   size: '2xl',
   text: 'Steve Pietrek',
+}
+
+export const Xl7 = Template.bind({})
+Xl7.args = {
+  size: '7xl',
+  text: 'Josh Furr',
 }
 
 export const Xl9 = Template.bind({})

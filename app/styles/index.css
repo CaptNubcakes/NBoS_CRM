@@ -586,8 +586,20 @@ code {
   display: flex;
 }
 
+.tw-h-\[120px\] {
+  height: 120px;
+}
+
 .tw-h-screen {
   height: 100vh;
+}
+
+.tw-w-full {
+  width: 100%;
+}
+
+.tw-min-w-\[33\%\] {
+  min-width: 33%;
 }
 
 .tw-min-w-\[20\%\] {
@@ -596,6 +608,18 @@ code {
 
 .tw-grow {
   flex-grow: 1;
+}
+
+.tw-flex-col {
+  flex-direction: column;
+}
+
+.tw-items-center {
+  align-items: center;
+}
+
+.tw-justify-center {
+  justify-content: center;
 }
 
 .tw-bg-slate-200 {
@@ -610,6 +634,10 @@ code {
 
 .tw-font-bold {
   font-weight: 700;
+}
+
+.tw-uppercase {
+  text-transform: uppercase;
 }
 
 /* custom base styles */
