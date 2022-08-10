@@ -1,4 +1,5 @@
 import { NbosCardset } from './NbosCardset'
+import cards from '../../stories/data/testData-cards'
 
 export default {
   title: 'Molecules/NbosCardset',
@@ -8,4 +9,6 @@ export default {
 const Template = args => <NbosCardset {...args} />
 
 export const Primary = Template.bind({})
-Primary.args = {}
+Primary.args = {
+  cards,
+}
